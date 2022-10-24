@@ -314,7 +314,7 @@ footer ul h5 {
   font-size: 18px;
   font-weight: 700;
   line-height: 19px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -389,7 +389,7 @@ footer .newsletter .input_card button {
     display: block;
   }
   footer .container ul {
-    width: 25%;
+    width: 100%;
   }
 }
 
