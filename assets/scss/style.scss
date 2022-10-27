@@ -52,6 +52,9 @@ header {
   }
 }
 article {
+  .tabset {
+    position: relative;
+  }
   .tabset > input[type="radio"] {
     position: absolute;
     left: -200vw;
@@ -316,6 +319,27 @@ footer {
     }
   }
 }
+
+.search_set {
+  border: 1px solid #333333;
+  padding: 0 10px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin-top: 20px;
+  width: 100%;
+  img {
+    width: 25px;
+    margin-right: 0px;
+    position: relative;
+    top: 6px;
+  }
+  input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
 @media (max-width: 767px) {
   .container {
     padding: 0 40px;
@@ -343,6 +367,11 @@ footer {
     .percard {
       width: 48%;
     }
+  }
+  .search_set {
+    position: absolute;
+    right: 0;
+    top: 7px;
   }
 }
 @media (min-width: 1024px) {

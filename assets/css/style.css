@@ -74,6 +74,10 @@ header .link .account {
   width: 15%;
 }
 
+article .tabset {
+  position: relative;
+}
+
 article .tabset > input[type="radio"] {
   position: absolute;
   left: -200vw;
@@ -375,6 +379,29 @@ footer .newsletter .input_card button {
   font-weight: 500;
 }
 
+.search_set {
+  border: 1px solid #333333;
+  padding: 0 10px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.search_set img {
+  width: 25px;
+  margin-right: 0px;
+  position: relative;
+  top: 6px;
+}
+
+.search_set input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding: 10px;
+}
+
 @media (max-width: 767px) {
   .container {
     padding: 0 40px;
@@ -409,6 +436,11 @@ footer .newsletter .input_card button {
   }
   .card_row .percard {
     width: 48%;
+  }
+  .search_set {
+    position: absolute;
+    right: 0;
+    top: 7px;
   }
 }
 
